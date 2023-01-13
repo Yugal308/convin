@@ -1,0 +1,61 @@
+.bucket{
+    flex: 25%;
+    max-width: 400px;
+    margin: 10px;
+    padding: 20px;
+    background-color:#fff;
+    border-radius: 10px;
+}
+.bucket_header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.bucket_title{
+    font-display: capitalize;
+}
+.bucket_form{
+    display: flex;
+    flex-direction: column;
+}
+.bucket_form > input{
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    /* margin-bottom: 10px; */
+    border: none;
+    background: rgba(212, 210, 210, 0.7);
+    color:black;
+    height: 2.5rem;
+}
+.card_button{
+    width: 100%;
+    font-size: 13px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color:black;
+    height: 2.5rem;
+}
+.card_button:hover{
+    color: black;
+    background-color: darkgray;
+}
+.close{
+    cursor: pointer;
+    font-size: 25px;
+    margin-right: 5px;
+}
+.close:hover{
+    background-color:lightgray;
+    border-radius: 15px;
+}
+@media screen and (max-width: 1080px) {
+    .bucket {
+      flex: 50%;
+    }
+  }

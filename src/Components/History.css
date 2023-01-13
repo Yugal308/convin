@@ -1,0 +1,29 @@
+.title{
+    text-align: center;
+}
+.history_btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    
+}
+.history_btns > button{
+    padding: 10px 35px;
+    font-size: 14px;
+}
+.history_content{
+    color: #fff;
+    margin-left: 5%;
+}
+.history_content > li{
+    margin-top: 10px;
+}
+#time{
+    margin-left: 21px;
+}
+.line{
+    opacity: 0.6;
+    margin-left: 5%;
+    margin-right: 5%;
+}
